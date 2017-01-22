@@ -15,6 +15,8 @@ __Change History:__
 To Use
 ------
 
+Download `/src/client/promise.ts` and include in your own project.
+
 See tutorials and the documentation above for how to use the object.
 
 
