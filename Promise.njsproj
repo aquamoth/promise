@@ -37,9 +37,7 @@
     <Compile Include="build\util\version_checker.js" />
     <Content Include="src\client\index.html" />
     <Content Include="src\client\screen.css" />
-    <Compile Include="src\client\constants.ts" />
-    <Compile Include="src\client\example.ts" />
-    <Compile Include="src\client\_example_test.js" />
+    <Compile Include="src\client\_promise_test.js" />
     <Compile Include="src\server\server.js" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +57,7 @@
     <Folder Include="typings\globals\semver\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\client\promise.ts" />
     <TypeScriptCompile Include="typings\globals\expect.js\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\jake\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\karma\index.d.ts" />
